@@ -7,7 +7,7 @@ import numpy as np
 # ==========================================
 
 EXERCISE_TYPE = 'bicep'  # Options: 'bicep' OR 'lateral' 
-VIDEO_PATH = 'demo_curl.mp4' # Use 0 to access webcam for real-time detection
+VIDEO_PATH = 'demo_curl_.mp4' # Use 0 to access webcam for real-time detection
 
 # ==========================================
 
@@ -169,4 +169,5 @@ def main():
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
+
     main()
